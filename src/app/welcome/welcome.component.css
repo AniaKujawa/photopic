@@ -1,0 +1,18 @@
+.welcomeContainer {
+  box-sizing: border-box;
+  text-align:center;
+  background-image: url('../images/art-blank-color-139764.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.welcomeContainer__title {
+  margin: 20px;
+}
+

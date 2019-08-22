@@ -1,0 +1,10 @@
+<div class="container">
+  <div class="row">
+  <div *ngFor="let photo of photos" class="card col-md-4 mr-auto" style="width: 18rem;">
+  <img src="{{ photo.src }}" class="card-img-top" alt="first picture of album" >
+  <div class="card-body">
+    <p class="card-text"><span style="font-weight: bold"> Title: </span> {{ photo.title }}</p>
+  </div>
+  </div>
+  </div>
+</div>
